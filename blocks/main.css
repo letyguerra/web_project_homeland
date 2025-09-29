@@ -1,7 +1,6 @@
 .main{
 text-align: center;
-width: 984;
-height: 984;
+
 
 }
 
@@ -41,10 +40,5 @@ margin: 0 auto;
 max-width: 984px;
 object-fit: cover;
 width: 100%;
-
-
-
-
-
 
 }
