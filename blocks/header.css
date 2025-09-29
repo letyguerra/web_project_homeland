@@ -1,0 +1,50 @@
+.header{
+text-align: center;
+width: 984;
+height: 984;
+
+}
+
+.header__title{
+    margin: 0 auto;
+font-family: Inter;
+font-weight: 900;
+font-style: Black;
+font-size: 96px;
+line-height: 100px;
+letter-spacing: 0%;
+
+max-width: 720px;
+
+
+
+}
+
+.header__description{
+    font-family: Inter;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+ 
+    margin: 0 auto;
+text-align: center;
+padding-bottom: 64px;
+padding-top: 64px;
+max-width: 720px;
+}
+
+.header__image{
+display: block;
+margin: 0 auto;
+max-width: 984px;
+object-fit: cover;
+width: 100%;
+
+
+
+
+
+
+}
