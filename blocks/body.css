@@ -45,7 +45,7 @@ letter-spacing: 0%;
 }
 
 
-@media screen (max-width: 768px){
+@media screen and (max-width: 768px){
 .body{
     padding: 24px;
 }
@@ -92,7 +92,7 @@ letter-spacing: 0%;
 }
 }
 
-@media screen (max-width: 320px){
+@media screen and (max-width: 320px){
 .body{
     padding: 16px;
 }
