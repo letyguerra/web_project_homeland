@@ -1,8 +1,8 @@
 .des{
      width: 100%;
      max-width: 984px;
-       margin: 0 auto;
-    display: block;
+    margin: 0 auto;
+    display: grid;
     grid-template-columns: 1fr;
 }
 
@@ -13,6 +13,7 @@
     "image text"
     "button text";
       grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: auto auto 1fr;
        gap: 15px;
        padding-top: 30px;
 }
@@ -26,7 +27,6 @@ line-height: 76px;
 letter-spacing: 0%;
 margin: 0;
 grid-area: title;
-
 
 }
 
@@ -73,6 +73,13 @@ margin: 0;
     grid-area: image;
 }
 
+.des__image:hover{
+    width: 100%;
+    grid-area: image;
+    box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.5);
+    opacity: 0.5;
+}
+
 .des__button{
     justify-self: start;
     padding: 10px 30px;
@@ -80,7 +87,13 @@ margin: 0;
    background: linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%);
     color: white;
     margin-bottom: 20px;
+     font-family: Inter;
     grid-area: button;
+}
+
+.des__button:hover{
+ background: linear-gradient(90deg, rgba(2, 120, 254, 0.25) 0%, rgba(0, 58, 123, 0.25) 99.98%);
+
 }
 
 @media screen and (max-width: 320px){
@@ -92,15 +105,28 @@ margin: 0;
     "autor"
     "image"
     "text"
-    "button" 
-    "text";
+    "text"
+    "button";
 
  }
 
+ .des__title{
+    font-family: Inter;
+font-weight: 900;
+font-size: 50px;
+/* leading-trim: NONE; */
+line-height: 76px;
+letter-spacing: 0%;
+margin: 0;
+grid-area: title;
+
+
+}
 
 .des__image{
     width: 100%;
     grid-area: image;
+    object-fit: cover;
 }
 
 .des__button{
@@ -110,7 +136,7 @@ margin: 0;
    background: linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%);
     color: white;
     margin-bottom: 20px;
-    grid-area: button;
+    grid-area: button; 
 }
 
     }
