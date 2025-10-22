@@ -1,6 +1,7 @@
 .footer{
     text-align: center;
-    
+    font-family: Inter;
+font-weight: 400;
 }
 
 .footer__des{
